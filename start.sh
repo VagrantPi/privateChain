@@ -1,0 +1,19 @@
+geth \
+--datadir ./chaindata \
+--rpc \
+--rpcaddr="0.0.0.0" \
+--rpccorsdomain="*" \
+--rpcapi="db,eth,net,web3,personal" \
+--ws \
+--wsport "8546" \
+--wsaddr="0.0.0.0" \
+--wsorigins "*" \
+--wsapi="db,eth,net,web3,personal" \
+--cache 2048 \
+--maxpeers 0 \
+--nodiscover \
+--unlock 9644fb7d0108a6b7e52cab5171298969a427cacd \
+--etherbase 9644fb7d0108a6b7e52cab5171298969a427cacd \
+--password pw.txt \
+--mine \
+--allow-insecure-unlock
